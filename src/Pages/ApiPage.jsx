@@ -50,9 +50,19 @@ const ApiPage = () => {
 
       {data?.length > 0 ? (
         <div className="grid sm:grid-cols-4  gap-3">
-          {data.map((datax) => (
-            <ApiCard key={datax.id} {...datax} />
-          ))}
+           {data
+            .filter((post) => {
+              if (search === "") {
+                return post;
+              } else if (
+                post.name.toLowerCase().includes(search.toLowerCase())
+              ) {
+                return post;
+              }
+            })
+            .map((post, datax) => (
+              <ApiCard key={datax.id} {...post} />
+            ))}
         </div>
       ) : (
         <div className="text-white text-center flex justify-center mt-5">
