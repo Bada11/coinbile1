@@ -41,7 +41,7 @@ const ApiPage = () => {
       </Link>
       <div className="py-10">
         <input
-          className="w-full border border-[#5f5f5f] h-[40px] rounded-[100px] text-white px-3"
+          className="w-full border border-[#5f5f5f] h-[40px] rounded-[100px] text-white px-3 outline-none"
           placeholder="Search rankings..."
           type="search"
           onChange={(e) => setSearch(e.target.value)}
