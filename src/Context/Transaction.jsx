@@ -44,7 +44,7 @@ export const TransactionProvider = ({ children }) => {
 
   const getAllTransactions = async () => {
     try {
-      if (!ethereum) return alert("please install metamask");
+     // if (!ethereum) return alert("please install metamask");
 
       const transactionContract = getTransaction();
 
@@ -72,7 +72,7 @@ export const TransactionProvider = ({ children }) => {
 
   const IfTransationsIsExisting = async () => {
     try {
-      if (!ethereum) return alert("please install metamask");
+      //if (!ethereum) return alert("please install metamask");
 
       const transactionContract = getTransaction();
       const AllTransactionCount = transactionContract.getBlockchainCount();
@@ -103,7 +103,7 @@ export const TransactionProvider = ({ children }) => {
   //This is to check if your wallet is connected to your webapp
   const checkifWalletisConnected = async () => {
     try {
-      if (!ethereum) return alert("Please install MetaMask");
+     // if (!ethereum) return alert("Please install MetaMask");
 
       const accounts = await ethereum.request({ method: "eth_accounts" });
 
