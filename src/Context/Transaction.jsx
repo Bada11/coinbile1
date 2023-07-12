@@ -223,8 +223,6 @@ export const TransactionProvider = ({ children }) => {
       setIsloading(false);
       if (user) {
         navigate("/EthHome");
-      } else {
-        navigate("/auth");
       }
     });
   }, [transactionCount, user]);
