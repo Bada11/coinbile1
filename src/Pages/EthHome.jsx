@@ -90,7 +90,7 @@ const EthHome = () => {
           />
           <div className="flex justify-between w-full">
             <input
-              className=" sm:w-[300px] w-full h-[40px] rounded-[100px] card px-3  sm:ml-6 overview-[#5ce2ff]"
+              className=" sm:w-[300px] w-full h-[40px] rounded-[100px] card px-3  sm:ml-6 overview-[#5ce2ff] text-white outline-none"
               placeholder="Search something..."
               //onClick={() => setNavbar(true)}
             />
