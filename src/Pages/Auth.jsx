@@ -45,7 +45,7 @@ const Auth = () => {
             className="bg-transparent w-full  text-white h-[60px] mt-10 rounded-[10px] card p-5"
             onClick={() => signIn()}
           >
-            <FcGoogle className="bg-none absolute text-[25px] sm:mt-[-5px]" /> Sign
+            <FcGoogle className="bg-none absolute text-[25px] " /> Sign
             in with google
           </button>
 
@@ -55,7 +55,7 @@ const Auth = () => {
             className="bg-transparent w-full  text-white h-[60px]  rounded-[10px] card p-5"
             onClick={notAvailable}
           >
-            <AiFillGithub className="bg-none absolute text-[25px] sm:mt-[-5px]" />
+            <AiFillGithub className="bg-none absolute text-[25px]" />
             Sign in with github
           </button>
         </div>
