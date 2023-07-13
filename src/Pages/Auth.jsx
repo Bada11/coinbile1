@@ -22,7 +22,7 @@ const Auth = () => {
 
   const notAvailable = () => {
     alert("Login not available at the moment");
-    navigate('/EthHome')
+    
   };
 
   return (
