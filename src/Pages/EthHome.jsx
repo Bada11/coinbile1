@@ -134,7 +134,7 @@ const EthHome = () => {
             </h1>
 
             <div className="flex justify-between float-left sm:gap-3 gap-10 mt-5">
-              <Button title="Continue" />
+              <Link to='/form'><Button title="Continue" /></Link>
             </div>
           </div>
         </div>
