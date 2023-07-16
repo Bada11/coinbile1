@@ -56,8 +56,10 @@ const ApiPage = () => {
                 return post;
               } else if (
                 post.name.toLowerCase().includes(search.toLowerCase())
+                
+              ) else if(
                 post.market_cap_rank.toLowerCase().includes(search.toLowerCase())
-              ) {
+              ){
                 return post;
               }
             })
