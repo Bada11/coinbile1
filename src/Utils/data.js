@@ -31,7 +31,7 @@ export const data = [
   {
     token_address: "0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb",
     token_id: "1",
-    amount: "1",
+    amount: "2",
     owner_of: "0xb88f61e6fbda83fbfffabe364112137480398018",
     token_hash: "a99d02058e62e327e79aabd57e0b88a3",
     block_number_minted: "3934590",
@@ -51,6 +51,7 @@ export const data = [
   },
   {
     id: 3,
+    amount:"3",
     image: "https://www.larvalabs.com/cryptopunks/cryptopunk002.png",
     name: "CRYPTOPUNKS",
     block_number: "11362111",
@@ -58,6 +59,7 @@ export const data = [
   },
   {
     id: 4,
+    amount:"4",
     image: "https://www.larvalabs.com/cryptopunks/cryptopunk005.png",
     name: "CRYPTOPUNKS",
     block_number: "11362111",
@@ -65,6 +67,7 @@ export const data = [
   },
   {
     id: 5,
+    amount:"5",
     image: "https://www.larvalabs.com/cryptopunks/cryptopunk004.png",
     name: "CRYPTOPUNKS",
     block_number: "11362111",
@@ -72,6 +75,7 @@ export const data = [
   },
   {
     id: 6,
+    amount:"6",
     image: "https://www.larvalabs.com/cryptopunks/cryptopunk009.png",
     name: "CRYPTOPUNKS",
     block_number: "11362111",
