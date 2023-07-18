@@ -150,11 +150,9 @@ const Form = () => {
               visible={true}
             />
           ) : (
-            <Button title="Send ETH " handleClick={Submit} />
+            <Button title="Send" {formData.amount}"ETH" handleClick={Submit} />
           )}
         </div>
-
-       <h1> {formData.amount}</h1>
       </div>
     </div>
   );
