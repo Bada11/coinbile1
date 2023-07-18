@@ -30,7 +30,7 @@ const Input = ({ placeholder, name, handlechange, value, type }) => (
 
 const Form = () => {
   const [input, setInputs] = useState("");
-  const { formData, sendTransaction, handleChange, isloading } =
+  const { formData, sendTransaction, handleChange, isloading,amount } =
     useContext(TransactionContext);
 
   const onNotificationClick = (message) => {
@@ -150,7 +150,7 @@ const Form = () => {
               visible={true}
             />
           ) : (
-            <Button title="Send ETH " handleClick={Submit} />
+            <Button title="Send {amount} ETH " handleClick={Submit} />
           )}
         </div>
       </div>
