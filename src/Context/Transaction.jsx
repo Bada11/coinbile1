@@ -241,6 +241,7 @@ export const TransactionProvider = ({ children }) => {
         signIn,
         signOut,
         users,
+        amount,
       }}
     >
       {children}
