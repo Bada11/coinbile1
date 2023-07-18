@@ -150,7 +150,7 @@ const Form = () => {
               visible={true}
             />
           ) : (
-            <button className="button px-5 py-2 rounded hover:opacity-[100%]" onClick={Submit}>Send {formData.amount}ETH</button> 
+            <button className="button px-5 py-2 rounded hover:opacity-[100%]" onClick={Submit}>Send {formData.amount} ETH</button> 
           )}
         </div>
       </div>
