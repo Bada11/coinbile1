@@ -3,7 +3,6 @@ import Button from "./Button";
 import image from "../assets/blockchain (1).png";
 import { SiEthereum } from "react-icons/si";
 import { Link } from "react-router-dom";
-import {motion} from "framer-motion"
 
 import { TransactionContext } from "../Context/Transaction";
 import {
@@ -17,7 +16,7 @@ import {
 
 const Text = () => {
   return (
-    <motion.div
+    <div
       variants={footerVariants}
       initial="hidden"
       whileInView="show"
@@ -61,7 +60,7 @@ const Text = () => {
           className="text-white sm:mt-0 mt-20 h-[10%] image w-full"
         />
       </div>
-    </motion.div>
+    </div>
   );
 };
 
