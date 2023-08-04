@@ -16,7 +16,7 @@ import {
 
 const Text = () => {
   return (
-    <div
+    <motion.div
       variants={footerVariants}
       initial="hidden"
       whileInView="show"
@@ -60,7 +60,7 @@ const Text = () => {
           className="text-white sm:mt-0 mt-20 h-[10%] image w-full"
         />
       </div>
-    </div>
+    </motion.div>
   );
 };
 
