@@ -3,6 +3,7 @@ import Button from "./Button";
 import image from "../assets/blockchain (1).png";
 import { SiEthereum } from "react-icons/si";
 import { Link } from "react-router-dom";
+import {motion} from "framer-motion"
 
 import { TransactionContext } from "../Context/Transaction";
 import {
