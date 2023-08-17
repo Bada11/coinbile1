@@ -55,7 +55,7 @@ const EthHome = () => {
             <ul className="text-white text-left py-10 ">
               <AiOutlineClose
                 onClick={() => setNavbar(false)}
-                className="text-[25px]"
+                className="text-[25px] float-right"
               />
               <Link to="/EthHome">
                 <li className="mt-100">Home</li>
