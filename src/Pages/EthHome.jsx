@@ -52,7 +52,7 @@ const EthHome = () => {
 
         {navbar && (
           <div className="fixed w-full h-full nav  bg-black bg-none z-10 p-10 mt-0 top-0">
-            <ul className="text-white text-center py-10 ">
+            <ul className="text-white text-left py-10 ">
               <AiOutlineClose
                 onClick={() => setNavbar(false)}
                 className="text-[25px]"
